@@ -21,11 +21,11 @@ on:
           - bookworm
       armbian_board:
         description: "Select device board."
-        required: false
+        required: true
         default: "panther-x2"
         type: choice
         options:
-          - all
+          - orangepi5pro
           - panther-x2
           - nanopi-r6s
           - tinker-edge-r
